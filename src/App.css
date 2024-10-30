@@ -1,0 +1,44 @@
+.container {
+  margin-top: 120px;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 0 0 25%;
+  max-width: 25%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.card {
+  border: 2px solid #dee2e6;
+  padding: 16px;
+  width: 100%;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.column:hover .card {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .column {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .column {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
