@@ -19,7 +19,7 @@ const Footer = () => {
           </a>
         </div>
         <p className="footer-text">
-          &copy; 2024 My Inventory, Inc. All rights reserved.
+          &copy; 2024 Sastofy, Inc. All rights reserved.
         </p>
       </div>
     </footer>

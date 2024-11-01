@@ -1,5 +1,4 @@
 .container {
-  margin-top: 120px;
   padding: 0 15px;
 }
 
@@ -9,6 +8,7 @@
 }
 
 .product-card {
+  margin-top: -50px;
   border: 2px solid #dee2e6;
   padding: 16px;
   width: 600px;
@@ -24,8 +24,8 @@
 }
 
 .product-image {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   object-fit: contain;
 }
 
@@ -37,7 +37,7 @@
   color: black;
   font-weight: bold;
   margin-bottom: 8px;
-  font-size: 24px;
+  font-size: 15px;
 }
 
 .price {
@@ -57,7 +57,7 @@
 .description {
   color: black;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 14px;
   max-height: none;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .star-rating {
-  font-size: 24px;
+  font-size: 18px;
   color: gold;
 }
 
@@ -107,7 +107,7 @@
 
 .button-yellow,
 .button-green {
-  font-size: 18px;
+  font-size: 15px;
   padding: 12px 24px;
   border-radius: 30px;
   border: none;
